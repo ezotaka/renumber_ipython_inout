@@ -1,0 +1,2 @@
+# renumber_ipython_inout
+テキストに含まれるIPythonコンソールのIn、Outオブジェクトの添字番号の再割り当てを行います。
