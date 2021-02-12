@@ -32,7 +32,7 @@ Out[4]: ('^', '100')
 ```
 
 ## 使い方
-[renumber_ipython_inout.py](https://github.com/ezotaka/renumber_ipython_inout/blob/main/renumber_ipython_inout.py)をダウンロードして実行してください。
+[renumber_ipython_inout.py](https://raw.githubusercontent.com/ezotaka/renumber_ipython_inout/main/renumber_ipython_inout.py)をダウンロードして実行してください。
 
 引数にファイル名を与えるか、標準入力からテキストを入力すると、変換結果を標準出力します。
 
