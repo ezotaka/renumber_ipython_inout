@@ -146,8 +146,11 @@ class Processor:
 
 def _main():
     if len(sys.argv) == 1:
-        result = Processor().renumber(iter(sys.stdin.readline, ''))
-        print(result, end='')
+        try:
+            result = Processor().renumber(iter(sys.stdin.readline, ''))
+            print(result, end='')
+        except KeyboardInterrupt:
+            print()
     elif len(sys.argv) >= 2:
         for file in sys.argv[1:]:
             f = open(file, 'r')
